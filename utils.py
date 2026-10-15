@@ -35,9 +35,6 @@ def crear_tablero(numero = 10):
 
     return [tablero_jugador1, tablero_jugador2]
 
-def colocar_barco(barco, tablero):
-    pass
-
 def crear_coordenadas(tamano):
     numeroX = np.random.randint(0,10)
     numeroY = np.random.randint(0,10)
