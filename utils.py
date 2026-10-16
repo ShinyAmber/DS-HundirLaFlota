@@ -179,6 +179,7 @@ class Tablero(object):
             self.puntuacion_actual += 1
             return "¡Tocado!"
         else:
+            self.puntuacion_actual += 1
             return "¡Hundido!"
 
     
@@ -251,6 +252,7 @@ def iniciar_juego_consola():
             print(jugadores[turno].matriz_juego)
             print(jugadores[turno].disparar_humano(input("¿Donde quieres disparar? Escribe una casilla A-J y 0-9, ejemplo: A3 \n"),jugadores[turno - 1]))
             if (jugadores[turno].puntuacion_actual > 15):
+                game = False
                 break
             esperar_y_limpiar(5)
             if (turno == 0):
@@ -286,6 +288,7 @@ def iniciar_juego_ia_consola():
                 time.sleep(0.5)
                 print(jugadores[turno].disparar_ia(jugadores[turno -1]))
             if (jugadores[turno].puntuacion_actual > 15):
+                game = False
                 break
 
             if (turno == 0):
