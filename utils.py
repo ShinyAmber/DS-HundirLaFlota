@@ -252,7 +252,7 @@ def iniciar_juego_consola():
             print(jugadores[turno].disparar_humano(input("¿Donde quieres disparar? Escribe una casilla A-J y 0-9, ejemplo: A3 \n"),jugadores[turno - 1]))
             if (jugadores[turno].puntuacion_actual > 15):
                 break
-            esperar_y_limpiar(1)
+            esperar_y_limpiar(5)
             if (turno == 0):
                 turno = 1
             else:
@@ -293,7 +293,7 @@ def iniciar_juego_ia_consola():
             else:
                 turno -= 1
 
-            esperar_y_limpiar(1)
+            esperar_y_limpiar(5)
 
     esperar_y_limpiar(1)
     if (turno == 0):
