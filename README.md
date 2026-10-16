@@ -15,6 +15,8 @@
 ## Contenido
 En este repositorio está el proyecto de Hundir la Flota, realizado con Python, Numpy y pygame (opcional)
 
+Dos modos juego
+
 ## Librerias necesarias
 - Time
 - OS

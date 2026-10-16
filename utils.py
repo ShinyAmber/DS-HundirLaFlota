@@ -16,7 +16,6 @@ def esperar_y_limpiar(segundos):
 def pantalla_titulo():
     limpiar_pantalla()
     print("HUNDIR LA FLOTA - PYTHON")
-    print("by Amber Cebrian")
     print("Elige modo de juego")
     modo = (int(input("0 - Jugador contra Jugador / 1 - Jugador contra IA \n")))
     if (modo == 0):
