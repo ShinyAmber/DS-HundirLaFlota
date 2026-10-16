@@ -19,7 +19,7 @@ En este repositorio está el proyecto de Hundir la Flota, realizado con Python, 
 - Time
 - OS
 - Numpy (instalación necesaria)
-- pygame-ce (instalación necesaria)
+- pygame-ce (opcional) (instalación necesaria)
 
 ## Como ejecutar 
 
