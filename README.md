@@ -33,6 +33,12 @@ En caso de querer jugar con interfaz grafica (con pygame), carga el archivo "hun
 
 </div>
 
+## Disclaimer uso con IA
+
+La IA se ha utilizado a modo de apoyo para ciertos aspectos que no he conseguido visionar personalmente, pero la (practica) totalidad del codigo ha sido escrito manualmente.
+
+La interfaz (hundir_flota_gui) está hecho con Claude AI usando la libreria de pygame-ce, proximamente actualizaré la interfaz con codigo generado
+
 ---
 
 <div align="center">
