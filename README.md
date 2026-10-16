@@ -2,7 +2,7 @@
 
 #  :smirk: :computer:Hundir :passenger_ship: la :boom: flota :computer: :scream: 
 
-<img src="./img/01_HLF.webp" align="center" alt="Yixuan Interknot Network Profile Picture Zenless Zone Zero" style="display:block; margin: 0;"> 
+<img src="./img/01_HLF.webp" align="center" alt="Hundir la flota Project Logo" style="display:block; margin: 0;"> 
 <div style="margin: 0; line-height: 50%; width:80%;">
     (Holy random)
 </div>
